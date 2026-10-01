@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Leadership Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <h1>Your Leadership Style</h1>
+      <p class="sub">Self-assessments for educators</p>
+    </header>
+
+    <section id="screen-home" class="screen">
+      <p class="lead">Answer each statement True or False about yourself. Your responses stay in your browser and your results appear the moment you finish.</p>
+      <div class="cards">
+        <button class="card" data-quiz="quality">
+          <span class="tag">Quiz 1</span>
+          <strong>Natural Leadership Quality</strong>
+          <span>56 statements. Find your natural leadership quality type.</span>
+        </button>
+        <button class="card" data-quiz="virtues">
+          <span class="tag">Quiz 2</span>
+          <strong>Natural Leadership Virtues</strong>
+          <span>56 statements. See which leadership virtues come naturally to you.</span>
+        </button>
+      </div>
+      <p class="note">Based on the assessments in <em>Finding Your Leadership Style: A Guide for Educators</em>. No single assessment can accurately evaluate a person's inclinations or abilities; these are meant to stimulate interest, thought, and discussion.</p>
+    </section>
+
+    <section id="screen-quiz" class="screen" hidden>
+      <div class="progress-row">
+        <span id="quiz-title"></span>
+        <span id="progress-text"></span>
+      </div>
+      <div class="bar"><div id="bar-fill"></div></div>
+      <p id="statement" class="statement" aria-live="polite"></p>
+      <div class="answers">
+        <button id="btn-true" class="ans">True</button>
+        <button id="btn-false" class="ans">False</button>
+      </div>
+      <div class="nav">
+        <button id="btn-back" class="link">&larr; Back</button>
+        <button id="btn-quit" class="link">Start over</button>
+      </div>
+      <p class="hint">Tip: press T or F on your keyboard, and &larr; to go back.</p>
+    </section>
+
+    <section id="screen-result" class="screen" hidden>
+      <h2 id="result-heading"></h2>
+      <div id="result-main" class="result-main"></div>
+      <h3>Your scores</h3>
+      <div id="scores"></div>
+      <p id="result-note" class="note"></p>
+      <div class="actions">
+        <button id="btn-retake" class="primary">Retake this quiz</button>
+        <button id="btn-other" class="secondary"></button>
+        <button id="btn-copy" class="secondary">Copy results</button>
+      </div>
+    </section>
+  </main>
+  <script src="quiz-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
