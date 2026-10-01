@@ -54,6 +54,46 @@
     }));
   }
 
+  function renderDetails(scores, top) {
+    const box = $("details");
+    box.innerHTML = "";
+    let list = top.map((t) => t.name);
+    if (quiz.virtueThreshold) {
+      const strong = scores.filter((s) => s.count >= quiz.virtueThreshold).map((s) => s.name);
+      if (strong.length) list = strong;
+    }
+    const h = document.createElement("h3");
+    h.textContent = "What this means";
+    box.appendChild(h);
+    list.forEach((name) => {
+      const d = quiz.details[name];
+      const art = document.createElement("article");
+      art.className = "detail";
+      const title = document.createElement("h4");
+      title.textContent = name;
+      const sum = document.createElement("p");
+      sum.textContent = d.summary;
+      const sh = document.createElement("strong");
+      sh.textContent = "Strengths";
+      const ul = document.createElement("ul");
+      d.strengths.forEach((x) => {
+        const li = document.createElement("li");
+        li.textContent = x;
+        ul.appendChild(li);
+      });
+      const w = document.createElement("p");
+      const wl = document.createElement("strong");
+      wl.textContent = "Watch for: ";
+      w.append(wl, d.watch);
+      const sc = document.createElement("p");
+      const sl = document.createElement("strong");
+      sl.textContent = "In schools: ";
+      sc.append(sl, d.inSchools);
+      art.append(title, sum, sh, ul, w, sc);
+      box.appendChild(art);
+    });
+  }
+
   function finish() {
     const scores = score();
     const max = Math.max(...scores.map((s) => s.count));
@@ -98,6 +138,8 @@
         wrap.appendChild(row);
         requestAnimationFrame(() => requestAnimationFrame(() => (fill.style.width = `${(s.count / s.total) * 100}%`)));
       });
+
+    renderDetails(scores, top);
 
     let note;
     if (quiz.virtueThreshold) {

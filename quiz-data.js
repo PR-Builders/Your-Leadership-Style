@@ -154,3 +154,95 @@ const QUIZZES = {
     ],
   },
 };
+
+// Plain-language summaries written for this site from what each category's statements measure.
+// They are not quoted from the book; swap in the book's own descriptions if preferred.
+QUIZZES.quality.details = {
+  "Adaptive Assertive": {
+    summary: "You lead through structure and follow-through. You are comfortable supervising a small group, you value order, thrift and convention, and you trust that details done well are what get a job finished.",
+    strengths: ["Organized, dependable and thorough", "Handles detail work others avoid", "Keeps steady, predictable systems running"],
+    watch: "Can be too conventional or rigid when a situation calls for fast change or flashy, bold moves.",
+    inSchools: "Shines in roles that need clear procedures, careful oversight and consistent standards, such as building operations, scheduling, compliance and curriculum management."
+  },
+  "Creative Assertive": {
+    summary: "You are an independent, idea-driven thinker. You do your best work alone and in bursts of creative energy, you notice patterns by comparing new situations to old ones, and you may feel a little different from the crowd.",
+    strengths: ["Original, imaginative problem solving", "Deep focus and creative intensity", "Thoughtful, sensitive to nuance"],
+    watch: "Energy can swing, you may find others' views limited, and competition or office politics can drain you.",
+    inSchools: "Strong in program design, instructional innovation and writing or arts leadership. Protect time for solo thinking and pair up with someone who handles follow-through."
+  },
+  "Adaptive Supportive": {
+    summary: "You are loyal, steady and grounded. You respect authority, value family and lasting relationships, and prefer a stable role with reasonable hours over directing a large operation.",
+    strengths: ["Loyal and reliable team member", "Calm, accepting and stabilizing presence", "Builds long-term trust with colleagues and families"],
+    watch: "May avoid stepping into big supervisory roles or pushing for change, even when your judgment is sound.",
+    inSchools: "A cornerstone of a school's culture: mentoring, teacher-leader roles and continuity. Seek out leadership opportunities in a supportive environment rather than waiting to be asked."
+  },
+  "Dynamic Assertive": {
+    summary: "You are a big-picture thinker and communicator. You enjoy large issues, express ideas with conviction, get people to listen, and like variety, independence and a changing circle of people and projects.",
+    strengths: ["Visionary and persuasive", "Comfortable alone and with abstract ideas", "Adaptable and quick to move on to what's next"],
+    watch: "Impatience with narrower worldviews and long commitments can make it hard to sustain projects and relationships.",
+    inSchools: "Well suited to vision-setting, advocacy, policy and change leadership. Partner with detail-oriented colleagues to turn ideas into lasting practice."
+  },
+  "Dynamic Supportive": {
+    summary: "You are warm, likable and people-centered. You are happiest helping others, you give people the benefit of the doubt, you smooth over conflicts, and humor and ease come naturally.",
+    strengths: ["Mediates conflict and builds goodwill", "Approachable and trusted", "Helps people feel included and valued"],
+    watch: "Difficulty saying no and a relaxed pace can lead to overload and procrastination.",
+    inSchools: "Excellent for counseling, family engagement, team building and culture work. Set clear boundaries and deadlines so helping others doesn't crowd out your own priorities."
+  },
+  "Dynamic Aggressive": {
+    summary: "You are driven, hard-working and ambitious. You have always wanted more out of life, set goals, move fast, prefer being your own boss and are happiest running a big job with others handling the details.",
+    strengths: ["Relentless drive and work ethic", "Strong at delegating and managing large efforts", "Confident and results-focused"],
+    watch: "May grow frustrated with slower colleagues and have little patience for downtime, ritual or consensus-building.",
+    inSchools: "Suited to turnaround work, new initiatives and executive roles. Build in time to listen, and recognize that others work at a different pace."
+  },
+  "Adaptive Aggressive": {
+    summary: "You are a confident, sociable go-getter. You meet people easily, network naturally, aren't intimidated by influential figures, plan your time tightly and prefer doing to sitting and thinking.",
+    strengths: ["Natural networker and connector", "Action-oriented and optimistic under pressure", "Goal-setting with a plan to reach each goal"],
+    watch: "Constant motion and a full schedule can leave little room for reflection or quiet.",
+    inSchools: "Effective in community partnerships, fundraising, public-facing leadership and rallying people around a plan. Schedule reflection time before big decisions."
+  }
+};
+
+QUIZZES.virtues.details = {
+  "Courage": {
+    summary: "You stand up for what is right even when it costs you. You would speak out against injustice, resist pressure from powerful people and make unpopular decisions on principle.",
+    strengths: ["Acts on conviction despite risk", "Protects students and staff from unfairness", "Earns respect for integrity under pressure"],
+    watch: "Courage without listening can harden into stubbornness; pair it with openness to evidence.",
+    inSchools: "Shows up when you challenge unfair tracking, resist improper hiring pressure or enforce rules fairly when it is costly."
+  },
+  "Impartiality": {
+    summary: "You weigh evidence fairly and set aside personal interests, favoritism and prejudgments. You change your mind when the data say you should.",
+    strengths: ["Fair, even-handed decision making", "Open to other views and new data", "Avoids favoritism and bias"],
+    watch: "Be sure that staying neutral doesn't delay decisions that need to be made.",
+    inSchools: "Valuable in discipline, hiring, evaluation and any dispute where people need to trust that the process is fair."
+  },
+  "Empathy": {
+    summary: "You are moved by the suffering of others and act on it. You are kind, caring and generous, and you try to see people favorably.",
+    strengths: ["Builds trust and a caring climate", "Notices who needs support", "Generous with time and help"],
+    watch: "Strong feelings for others can make tough decisions or boundaries harder.",
+    inSchools: "Helps you connect with struggling students, families and staff, and keeps decisions human-centered."
+  },
+  "Judgment": {
+    summary: "You are a good judge of people and situations. You gather the facts, stay level-headed under criticism and are comfortable making the call.",
+    strengths: ["Decisive after weighing the facts", "Reads character well", "Stays centered under pressure"],
+    watch: "Confidence in your read of people should still be checked against evidence.",
+    inSchools: "Key for high-stakes decisions: hiring, budgets, crises and conflict between stakeholders."
+  },
+  "Enthusiasm": {
+    summary: "You bring energy, passion and optimism. You are motivated by strong values, see the glass as half-full and commit to seeing things through.",
+    strengths: ["Energizes and motivates others", "Resilient and optimistic", "Persistent follow-through"],
+    watch: "High energy can overwhelm quieter colleagues; make room for their pace.",
+    inSchools: "Lifts school morale, launches new initiatives and keeps momentum through setbacks."
+  },
+  "Humility": {
+    summary: "You don't need the spotlight. You admit what you don't know, welcome criticism, accentuate strengths while owning limitations, and recognize that others can get things done without you.",
+    strengths: ["Open to feedback and learning", "Shares credit and empowers others", "Honest about limits"],
+    watch: "Don't let modesty keep you from claiming authority or recognition when it is warranted.",
+    inSchools: "Builds a culture where staff feel safe to speak up, and models learning for the whole community."
+  },
+  "Imagination": {
+    summary: "You generate options easily and think outside the box. When told something is impossible, you start looking for successful alternatives.",
+    strengths: ["Creative problem solving", "Brings innovative ideas to committees", "Sees possibilities where others see obstacles"],
+    watch: "Bring others along and attend to detail so ideas turn into results.",
+    inSchools: "Drives new programs, solutions to tough constraints and fresh approaches to old problems."
+  }
+};
