@@ -268,3 +268,81 @@ const AT_WORK = {
     "Imagination": "Watch for dropping ideas before they are finished, bringing too many options and boredom with routine tasks. Pick one idea to take through to the end, and tie each pitch to a business result."
   }
 };
+
+// Fuller write-ups: how each result tends to lead, behave under pressure, and grow.
+const FULL = {
+  quality: {
+    "Adaptive Assertive": {
+      leads: "You lead by example and by system. People know what to expect from you: clear expectations, tidy processes and deadlines that are met. You are most effective with a small team you can supervise closely, where you can see the details and keep standards consistent. You tend to respect rules and norms, and you expect others to take responsibility for their choices.",
+      pressure: "When things get chaotic, you tighten your grip. You add structure, check more often and fall back on proven methods. That steadies a team in a crisis, but it can read as controlling when the situation actually needs flexibility.",
+      grow: "Practice handing off outcomes instead of steps, and test one new approach a quarter. Ask a trusted colleague where your standards help and where they slow people down."
+    },
+    "Creative Assertive": {
+      leads: "You lead through original thinking. You see connections, compare new situations to past ones and come up with solutions others miss. You tend to do your best work alone, in deep, absorbed stretches, and you prefer to influence through the quality of your ideas rather than through authority or competition.",
+      pressure: "Under pressure you withdraw, and you may feel misunderstood or out of step with the group. Low-energy periods can hit hard, and conflict or competition can feel draining or personal.",
+      grow: "Make your thinking visible early, in drafts and short updates, instead of presenting only finished work. Build a small circle of people who translate your ideas into plans and who will tell you when you've gone quiet."
+    },
+    "Adaptive Supportive": {
+      leads: "You lead by being the steady center of the group. You are loyal, you value family and long relationships, and you respect the structure you work within. People trust you because you are consistent and you do not play games. You are happier supporting a mission you believe in than running a large operation.",
+      pressure: "In conflict you accommodate. You may take on extra work, defer to authority, or wait for things to settle rather than push for change. Your calm is a strength, but it can be mistaken for agreement or for lack of ambition.",
+      grow: "Name what you want in your role and ask for it. Practice offering your opinion first in meetings, and treat saying no as part of protecting your best work."
+    },
+    "Dynamic Assertive": {
+      leads: "You lead through ideas and communication. You think about large issues, explain them well and people listen. You like independence, variety and new challenges, and you are comfortable being alone with a problem. You are drawn to what's next and are quick to see where an organization could go.",
+      pressure: "When pushed, you get impatient with narrower views and slower thinking, and you may disengage, move on or simply talk louder. Long commitments and repetitive work test you.",
+      grow: "Pick a few projects to see through to the end, and pair with someone who loves detail and follow-through. Before arguing a point, ask a question first and find out what the other person sees."
+    },
+    "Dynamic Supportive": {
+      leads: "You lead through relationships. You are likable, quick to give people the benefit of the doubt and good at calming conflicts. Humor and warmth make people comfortable around you, and you are happiest when you are helping. Teams around you tend to feel included and safe.",
+      pressure: "You absorb the stress of the group. Saying yes to everything, avoiding conflict and putting off your own tasks can leave you overloaded and quietly resentful. You may wait for an outside push before you start something.",
+      grow: "Decide in advance what you will say yes to, put your own deadlines on the calendar, and practice giving direct feedback kindly. Being liked and being clear are not opposites."
+    },
+    "Dynamic Aggressive": {
+      leads: "You lead through drive. You have always wanted more, you set goals and you outwork most people and enjoy doing so. You do best running something big, with others handling the details, and you prefer to answer to yourself. You have little patience for wasted time, so you move fast and expect others to keep up.",
+      pressure: "Under pressure you push harder and faster. Frustration with slower coworkers shows up, you may skip rest and ritual, and you can run over people who need time to process or be consulted.",
+      grow: "Slow down long enough to ask what your team needs, and give credit loudly. Pick a few people who will tell you the truth, and treat recovery as part of your performance plan."
+    },
+    "Adaptive Aggressive": {
+      leads: "You lead through energy, connections and action. You walk into a new setting and quickly know a lot of people, you network naturally, and you are comfortable around influential people. You like structure, you set goals and make plans to reach them, and you would rather be moving than sitting and thinking. You stay more upbeat than others when a task looks hard.",
+      pressure: "When stressed, you speed up and fill your calendar. Quiet can feel uncomfortable, and you may rely on confidence and relationships to carry you when the problem needs deeper study.",
+      grow: "Build in regular reflection, even a short weekly review of what is working, and follow through on the introductions and promises you make. Give a quieter colleague the first word."
+    }
+  },
+  virtues: {
+    "Courage": {
+      leads: "Courage in leadership means acting on what you believe is right when it is costly: speaking up, protecting someone treated unfairly, and refusing to bend to pressure from people with power. People tend to trust you because they know you will not trade your principles for your comfort.",
+      pressure: "Your risk is rigidity. When you feel strongly, it can be hard to hear that you might be wrong, and strong stands can isolate you from colleagues who agree with your aims but not your methods.",
+      grow: "Pair courage with listening and evidence. Pick your battles on purpose, and bring allies in before you take a public stand."
+    },
+    "Impartiality": {
+      leads: "Impartiality is fairness in practice. You weigh evidence before you decide, you separate your interests from the question, you refuse to favor your own group or friends and you change your position when the facts change. People bring disputes to you because they believe the outcome will be fair.",
+      pressure: "Your risk is delay. Staying neutral can look like indecision, and wanting every view heard can slow decisions that need an answer today.",
+      grow: "Set a decision date at the start, say what you are weighing and then make the call. Neutrality is how you decide, not a reason to avoid deciding."
+    },
+    "Empathy": {
+      leads: "Empathy is real concern for other people's welfare. You are moved by suffering, you give help even when it isn't convenient and you are likely to be described as kind, caring and sensitive. You build a climate where people feel seen, and you notice who is struggling before they say so.",
+      pressure: "Your risk is carrying too much. Feeling others' pain can make tough decisions, boundaries and honest feedback harder, and it can wear you down over time.",
+      grow: "Keep care and judgment together. Set limits on what you take on, and remember that holding people to a standard is also a way of respecting them."
+    },
+    "Judgment": {
+      leads: "Judgment is sound decision making. You gather the facts, read people well and are comfortable making the call. You stay centered when others criticize or pressure you and can think clearly about the best course of action.",
+      pressure: "Your risk is overconfidence. A strong sense of how things are can lead you to decide before every view is in, or to trust your read of a person over the evidence.",
+      grow: "Ask one person who disagrees with you to test your reasoning before important decisions, and keep track of your calls so you can learn from the ones that missed."
+    },
+    "Enthusiasm": {
+      leads: "Enthusiasm is energy tied to values. You are passionate, optimistic and persistent, and people feel it. You see the glass half-full and carry that attitude into setbacks, which helps a team keep going when things get hard.",
+      pressure: "Your risk is outrunning others. Intensity can overwhelm quieter people, promises can get ahead of plans and your energy may run in cycles.",
+      grow: "Match your excitement with a realistic plan, ask for others' views before rallying them, and schedule recovery so your energy is dependable."
+    },
+    "Humility": {
+      leads: "Humility is an accurate view of yourself. You admit what you don't know, welcome criticism and focus on strengths without pretending you have no limits. You don't need to be the star, and you know the team can accomplish things without you, which is a sign of a strong team.",
+      pressure: "Your risk is staying too far in the background. You may not claim credit, push for your ideas or accept recognition you have earned, and others may take over by default.",
+      grow: "State your contributions plainly and keep a record of your results. Humility works best next to clear confidence in the work itself."
+    },
+    "Imagination": {
+      leads: "Imagination is the ability to see more than one way forward. You come up with alternatives quickly, think outside the box first and turn \"impossible\" into a list of options. People ask you for help when they are stuck.",
+      pressure: "Your risk is scatter. New ideas can pull you away from the unfinished one, and routine detail may bore you.",
+      grow: "Choose one idea at a time to carry through to results, and work with someone who enjoys the details. Show how each idea solves a real problem."
+    }
+  }
+};

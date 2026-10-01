@@ -93,7 +93,15 @@
       const wkl = document.createElement("strong");
       wkl.textContent = "In a day job, watch for: ";
       wk.append(wkl, AT_WORK[quiz.id][name]);
-      art.append(title, sum, sh, ul, w, sc, wk);
+      const fu = FULL[quiz.id][name];
+      const full = [["How you lead", fu.leads], ["Under pressure", fu.pressure], ["How to grow", fu.grow]].map(([k, v]) => {
+        const p = document.createElement("p");
+        const b = document.createElement("strong");
+        b.textContent = k + ": ";
+        p.append(b, v);
+        return p;
+      });
+      art.append(title, sum, ...full, sh, ul, w, sc, wk);
       box.appendChild(art);
     });
   }
