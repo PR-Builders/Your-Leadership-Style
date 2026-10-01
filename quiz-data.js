@@ -246,3 +246,25 @@ QUIZZES.virtues.details = {
     inSchools: "Drives new programs, solutions to tough constraints and fresh approaches to old problems."
   }
 };
+
+// What to watch for in any day job (not just schools).
+const AT_WORK = {
+  quality: {
+    "Adaptive Assertive": "Watch for micromanaging and resisting change. In a fast-moving workplace, pressure to \"just ship it\" can feel threatening; set a rule for when good enough is good enough. Make sure your reliability gets noticed, because quiet competence is easy to overlook at review time.",
+    "Creative Assertive": "Watch for isolating yourself, missing deadlines in favor of ideas, and taking office politics or competition personally. Say your ideas out loud in meetings, not just in your head, and agree on check-ins so your solo work stays visible. Burnout dips are real; plan lighter weeks around your high-energy bursts.",
+    "Adaptive Supportive": "Watch for staying in a role too long, being passed over because you don't ask for promotion, and absorbing extra work to keep the peace. Speak up about your own goals in one-on-ones. A boss who is kind is not the same as a boss who is developing you.",
+    "Dynamic Assertive": "Watch for starting more than you finish, getting bored with routine and talking over people who think more slowly. Pair yourself with a detail person, commit to finishing before launching the next idea, and check that people agreed rather than just stopped arguing.",
+    "Dynamic Supportive": "Watch for becoming the office helper whose own work slips. Saying yes to everything leads to overload, missed deadlines and resentment. Set a daily limit on favors, write down commitments, and don't let being liked stop you from giving hard feedback.",
+    "Dynamic Aggressive": "Watch for steamrolling slower teammates, burning out your team (and yourself) and resisting managers. Because you may never be happy working for someone else, expect friction with authority. Ask for input before you decide, and treat rest as part of performance, not a weakness.",
+    "Adaptive Aggressive": "Watch for confusing activity with progress, relying on charm and connections over substance, and skipping reflection. Block thinking time before big decisions, and follow up on introductions you make so networking turns into results."
+  },
+  virtues: {
+    "Courage": "Watch for picking fights that don't need to be fought, burning bridges, and being seen as difficult. Choose which hills matter, raise concerns privately first when you can, and bring evidence so you're respected, not just feared.",
+    "Impartiality": "Watch for analysis paralysis and being seen as having no opinion. Neutrality is useful until a decision is due; set a deadline and then commit. Also check whether staying neutral is avoiding a conflict you should address.",
+    "Empathy": "Watch for taking on other people's problems, avoiding hard conversations and decision fatigue from caring too much. Protect your own energy, and remember that honest feedback is also a form of care.",
+    "Judgment": "Watch for overconfidence in first impressions of people and deciding before everyone has had their say. Your reads are often right; test them against data and ask someone who disagrees.",
+    "Enthusiasm": "Watch for overpromising, wearing out quieter coworkers and burning hot then flat. Pace yourself, give others room to speak, and back your excitement with a realistic plan.",
+    "Humility": "Watch for under-selling yourself at review time, not claiming credit and letting louder colleagues set the agenda. Keep a running list of wins, and practice saying what you did, plainly.",
+    "Imagination": "Watch for dropping ideas before they are finished, bringing too many options and boredom with routine tasks. Pick one idea to take through to the end, and tie each pitch to a business result."
+  }
+};

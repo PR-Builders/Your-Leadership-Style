@@ -89,7 +89,11 @@
       const sl = document.createElement("strong");
       sl.textContent = "In schools: ";
       sc.append(sl, d.inSchools);
-      art.append(title, sum, sh, ul, w, sc);
+      const wk = document.createElement("p");
+      const wkl = document.createElement("strong");
+      wkl.textContent = "In a day job, watch for: ";
+      wk.append(wkl, AT_WORK[quiz.id][name]);
+      art.append(title, sum, sh, ul, w, sc, wk);
       box.appendChild(art);
     });
   }
